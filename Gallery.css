@@ -1,0 +1,120 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-image: linear-gradient(to bottom, #f2f2f2, #666);
+
+}
+header{
+    background-image: url(schoolback.webp);
+    background-size: cover;
+    background-color: #48cae4;
+    color: black;
+    padding: 3px;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+header{
+    animation: scale 3s ease-in;
+
+    }
+    @keyframes scale{
+      0%{
+          transform: scale(0);
+      }
+      100%{
+          transform: scale(1);
+      }
+}
+
+.logo{
+   display: block;
+     padding: 5px;
+    
+ }
+    
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color: rgb(154, 40, 40);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 50px;
+    font-family: "Delius Unicase", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Delius Unicase", serif;
+    font-weight: 700;
+    font-style: normal;
+      }
+      
+.para h2{
+    font-size:30px ;
+    font-family: "Delius Unicase", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-family: "Delius Unicase", serif;
+   font-weight: 700;
+   font-style: normal;
+}
+.para p{
+    font-size: 30px;
+    color: rgb(166, 77, 77);
+    }
+.para p{
+    font-family: "Delius Unicase", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Delius Unicase", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+ .gall{
+    border: 4px solid black;
+    background-color: #adb5bd;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    }
+    .gall h1{
+        height: 50px;
+    }
+ .gall1{
+    
+   font-size: 20px;
+   display: flex;
+   justify-content: space-between;
+   margin-left: 35px;
+   margin-right: 95px;
+  
+}
+.galli1{
+    
+    margin: 4px;
+}
+.galli1:hover{
+    
+    background-color: #669bbc;
+    background: #f72585;
+}
+.one{
+    text-align: center;
+}
+.galli1{animation: scale 3s ease-in;
+
+}
+@keyframes scale{
+  0%{
+      transform: scale(0);
+  }
+  100%{
+      transform: scale(1);
+  }
+ 
+}
+.three{
+    text-align: center;
+    font-size: 40px;
+    font-family: unset;
+}

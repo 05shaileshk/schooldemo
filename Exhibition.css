@@ -1,0 +1,151 @@
+body{
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(to bottom, #ddc8c8, #77939e);
+    /* background-color: rgb(160, 189, 215); */
+}
+@media(min-width:520px) and(max-width:620px){
+    body{
+        background-color: #f72585;
+    }
+}
+    
+header{
+  background-image: url(schoolback.webp);
+    background-size: cover;
+    background-color: #48cae4;
+    color: black;
+    padding: 3px;
+    text-align: center;
+    justify-content: space-around;
+    /* background-image: url(schoolbackground.png);
+    background-size:contain;
+     */
+}
+header{
+  animation: scale 3s ease-in;
+
+    }
+    @keyframes scale{
+      0%{
+          transform: scale(0);
+      }
+      100%{
+          transform: scale(1);
+      }
+}
+ 
+.logo{
+    display: block;
+    padding: 5px;
+  }
+  
+  h1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color: rgb(154, 40, 40);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 50px;
+    font-family: "Delius Unicase", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Delius Unicase", serif;
+    font-weight: 700;
+    font-style: normal;
+ }
+      
+.para h2{
+    font-size:30px ;
+    font-family: "Delius Unicase", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-family: "Delius Unicase", serif;
+   font-weight: 700;
+   font-style: normal;
+}
+.para p{
+    font-size: 30px;
+    color: rgb(166, 77, 77);
+    }
+.para p{
+    font-family: "Delius Unicase", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Delius Unicase", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .exh{
+    text-align: center;
+    font-size: 80px;
+    padding-bottom: 5px;
+    background-image: radial-gradient(circle, #f2f2f2, #666, #333);
+}
+  .exh{
+    text-shadow: 2px 2px 4px #984545;
+  }
+  .section{
+    display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+ }
+ .box{
+     height: 300px;
+     width: 21%;
+     background-color: #ade8f4;
+     padding: 19px 0px 15px;
+     margin-top: 15px;
+     border-style: double;
+     align-content: space-around;
+ }
+ /* .box:hover>:not(:hover){
+     filter: blur(5px);
+     opacity: 0.5;
+    } */
+ /* .box:hover{
+     background: #f72585;
+     background-color: antiquewhite;
+ } */
+  .box:hover{
+    background-color: #c230b57f;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  .box{
+    animation: fadein 4s;
+  }
+  
+  @keyframes fadein {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+ .box-content p{
+     color: #bc2745;
+     font-size: 28px;
+     font-weight: 100;
+     font-optical-sizing: auto;
+     text-align: center;
+     display: block;
+     margin-left:4px ;
+     margin-right: 5px;
+ }
+ .ex{
+   border: 2px solid black;
+   font-style: oblique;
+   font-size: 20px;
+  }
+  .ex:hover{
+    background-color: #aabac07f;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+ .three{
+    text-align: center;
+    font-size: 40px;
+    font-family: unset;
+  }

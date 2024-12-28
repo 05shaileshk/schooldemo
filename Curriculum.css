@@ -1,0 +1,151 @@
+
+body{
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(160, 189, 215);
+}
+@media(min-width:520px) and(max-width:620px){
+    body{
+        background-color: #f72585;
+    }
+}
+    
+header{
+  background-image: url(schoolback.webp);
+    background-size: cover;
+    background-color: #48cae4;
+    color: black;
+    padding: 3px;
+    text-align: center;
+    justify-content: space-around;
+    /* background-image: url(schoolbackground.png);
+    background-size:contain;
+     */
+}
+header{
+  animation: scale 3s ease-in;
+
+    }
+    @keyframes scale{
+      0%{
+          transform: scale(0);
+      }
+      100%{
+          transform: scale(1);
+      }
+}
+ 
+.logo{
+    display: block;
+    padding: 5px;
+  }
+  
+  h1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color: rgb(154, 40, 40);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 50px;
+    font-family: "Delius Unicase", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Delius Unicase", serif;
+    font-weight: 700;
+    font-style: normal;
+ }
+      
+.para h2{
+    font-size:30px ;
+    font-family: "Delius Unicase", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-family: "Delius Unicase", serif;
+   font-weight: 700;
+   font-style: normal;
+}
+.para p{
+    font-size: 30px;
+    color: rgb(166, 77, 77);
+    }
+.para p{
+    font-family: "Delius Unicase", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Delius Unicase", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .curr{
+     writing-mode: horizontal-tb;
+     direction: center;
+     margin-top: 18px;
+    
+  }
+  .curr1{
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(162, 129, 68);
+    color: white;
+  }
+  .box{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.992);
+    border: 6px solid black;
+    border-radius: 10px 20px 30px 40px;
+ }
+  .box1{
+    font-size: 28px;
+    margin-left: 20px ;
+    font-family: serif;
+    /* box-sizing: content-box; */
+    text-align: center;
+    font-weight: 100px;
+    font-synthesis: none;
+    background-color: #edf2f4;
+    color: #ca710ae1;
+    width: 1400px;
+    
+  }
+ .box2{
+    display: flex;
+    margin-left: 700px; 
+ }
+ .box2{
+    animation: blink 2s infinite;
+}
+
+  @keyframes blink {
+   0% {
+     opacity: 1;
+   }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+   }
+  }
+  .row1{
+    background-color: aliceblue;
+    color: black;
+    text-shadow: #f72585;
+    text-align: center;
+    font-size: 30px;
+    border: solid;
+    width: 1500px;
+  margin: 18px; 
+   
+  }
+  .three{
+    text-align: center;
+    font-size: 38px;
+    border: 3px solid black;
+    font-family: sans-serif;
+  }
+  

@@ -1,0 +1,148 @@
+body{
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(160, 189, 215);
+}
+@media(min-width:520px) and(max-width:620px){
+    body{
+        background-color: #f72585;
+    }
+}
+    
+header{
+  background-image: url(schoolback.webp);
+    background-size: cover;
+    background-color: #48cae4;
+    color: black;
+    padding: 3px;
+    text-align: center;
+    justify-content: space-around;
+    /* background-image: url(schoolbackground.png);
+    background-size:contain;
+     */
+}
+header{
+  animation: scale 3s ease-in;
+
+    }
+    @keyframes scale{
+      0%{
+          transform: scale(0);
+      }
+      100%{
+          transform: scale(1);
+      }
+}
+ 
+.logo{
+    display: block;
+    padding: 5px;
+  }
+  
+  h1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color: rgb(154, 40, 40);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 50px;
+    font-family: "Delius Unicase", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Delius Unicase", serif;
+    font-weight: 700;
+    font-style: normal;
+ }
+      
+.para h2{
+    font-size:30px ;
+    font-family: "Delius Unicase", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-family: "Delius Unicase", serif;
+   font-weight: 700;
+   font-style: normal;
+}
+.para p{
+    font-size: 30px;
+    color: rgb(166, 77, 77);
+    }
+.para p{
+    font-family: "Delius Unicase", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Delius Unicase", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .class{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    font-size: 35px; 
+}
+.class:hover{
+    background-color: #f5ebe0;
+}
+.class1{
+    display: flex;
+    justify-content: space-around;
+}
+.class1:hover>:not(:hover){
+    filter: blur(5px);
+    opacity: 0.5;
+   }
+.class2{
+    margin-left: 15px;
+ padding: 5px;
+}
+.class2:hover{
+    background: #f72585;
+}
+.cl{
+     text-align: center;
+     font-size: 50px;
+}
+.section{
+
+    display: flex;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+   }
+   .box{
+       height: 300px;
+       width: 21%;
+       background-color: #ade8f4;
+       padding: 19px 0px 15px;
+       margin-top: 15px;
+       border-style: double;
+       align-content: space-around;
+   }
+   .box:hover{
+       background: #f72585;
+       background-color: antiquewhite;
+   }
+  
+   .box-content p{
+       color: #007185;
+       font-size: 18px;
+       font-weight: 200;
+       font-optical-sizing: auto;
+       text-align: center;
+       display: block;
+       margin-left:4px ;
+       margin-right: 5px;
+   }
+   .three{
+    text-align: center;
+    font-size: 40px;
+    font-family: unset;
+}
+.cl:hover{
+    background-color: #f5ebe0;
+}
+    

@@ -1,0 +1,196 @@
+body{
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+@media(min-width:520px) and(max-width:620px){
+    body{
+        background-color: #f72585;
+    }
+}
+    
+    
+header{
+    background-image: url(schoolback.webp);
+    background-size: cover;
+    background-color: #48cae4;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    justify-content: space-around;
+    /* background-image: url(schoolbackground.png);
+    background-size:contain; */
+    
+}
+header{
+    animation: scale 3s ease-in;
+
+    }
+    @keyframes scale{
+      0%{
+          transform: scale(0);
+      }
+      100%{
+          transform: scale(1);
+      }
+}
+.logo{
+    display: block;
+    padding: 5px;
+    animation-direction: alternate-reverse;
+    }
+        
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color: rgb(190, 100, 100);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 50px;
+    
+    font-family: "Delius Unicase", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-family: "Delius Unicase", serif;
+        font-weight: 700;
+        font-style: normal;
+   
+}
+         
+.para h2{
+  font-size:30px ;
+  font-family: "Delius Unicase", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Delius Unicase", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.para h2{
+    font-size:30px ;
+}
+.para p{
+    color: rgb(185, 97, 97);
+    font-size: 30px;
+    font-family: "Delius Unicase", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Delius Unicase", serif;
+    font-weight: 700;
+    font-style: normal;
+      
+}
+.reg
+{
+font-size: 15px;
+background-image: url(schoolback.webp);
+    background-size: cover;
+
+}
+.nation{
+    font-size: 70px;
+    border: 1rem solid;
+    width: 500px;
+    height: 100px;
+    border-right-style: groove;
+    
+    
+}
+.rg-bar{
+    display: flex;
+    justify-content: space-around;
+    
+ 
+    
+}
+.rg-bar{
+    animation: slide-in 6s;
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.log:hover{
+    background-color: #669bbc;
+    width: 115px;
+}
+.logn:hover{
+    background-color:#669bbc;
+    width:125px;
+} 
+.loge:hover{
+    background-color:#669bbc;
+    width: 100px;
+
+}
+
+li{
+    font-size: 20px;
+     font-weight: bold;
+     text-decoration: none;
+
+}
+footer{
+    background-color: #e0e1dd;
+    /* color: #fff; */
+    padding: 10px;
+    /* text-align: center; */
+    clear: both;
+    border: 6px solid;
+}
+
+.one{
+    text-align: center;
+    font-size: 25px;
+   display: block;
+   justify-content: center;
+   margin-top: 20px;
+   color: black;
+}
+.two1{
+    justify-content: space-around;
+    display: flex;
+    font-size: 30px;
+}
+/* .two1{
+    justify-content: space-around;
+    display: flex;
+    font-size: 30px;
+    color: #10d164;
+    display:  inline-flex;
+    text-align: center;
+    justify-content: space-between;
+    width: auto;
+    height: fit-content;
+    font-size: 25px;
+    text-decoration: none;
+} */
+.two1:hover{
+    color: aqua;
+}
+.three{
+    text-align: center;
+    font-size: 30px;
+    /* justify-items: baseline; */
+    
+  color: #449bd1;
+   /* font-weight: bolder; */
+   /* border: 3px solid black; */
+   font-size: 30px;
+}
+
+   
+    
+
+
+/* animation: scale 3s ease-in-out; */
